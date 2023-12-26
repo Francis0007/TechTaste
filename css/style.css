@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  font-family: 'verdana';
+}
+::-webkit-scrollbar{
+  width: 10px;
+  display: none;
+}
+::-webkit-scrollbar-track{
+  background:#f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+  background:#888; 
+}
+::-webkit-scrollbar-thumb:hover{
+  background:#555; 
+}
+a{
+  text-decoration: none;
+}
+
+
+/* section */
+
+.section {
+  background-image: url("../images/TechTaste_Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+.leftsection{
+  margin-top: 300px;
+  width: 300px;
+}
+.rightsection{
+  margin-top: 300px;
+}
+input[type="text"] {
+  background-color:rgb(243, 242, 242) ;
+  border-radius: 5px;
+  width: 320px;
+  height: 50px;
+  border: none;
+}
+span{
+  color: aqua;
+}
+::placeholder{
+  padding: 5px;
+}
