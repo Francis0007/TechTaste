@@ -30,12 +30,22 @@ a{
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width: 600px) {
+  .section {
+    flex-direction: column;
+  }
+}
 .leftsection{
   margin-top: 300px;
   width: 300px;
 }
 .rightsection{
   margin-top: 300px;
+}
+@media screen and (max-width: 600px) {
+  .rightsection img {
+  width: 400px;
+  }
 }
 input[type="text"] {
   background-color:rgb(243, 242, 242) ;
