@@ -39,12 +39,22 @@ a{
   margin-top: 300px;
   width: 300px;
 }
+@media screen and (max-width: 600px) {
+  .leftsection  {
+ margin-top: -20px;
+  }
+}
 .rightsection{
   margin-top: 300px;
 }
 @media screen and (max-width: 600px) {
   .rightsection img {
   width: 400px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .rightsection  {
+ margin-top: -60px;
   }
 }
 input[type="text"] {
