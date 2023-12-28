@@ -4,7 +4,6 @@ body{
 }
 ::-webkit-scrollbar{
   width: 10px;
-  display: none;
 }
 ::-webkit-scrollbar-track{
   background:#f1f1f1;
@@ -36,12 +35,13 @@ a{
   }
 }
 .leftsection{
-  margin-top: 300px;
+  margin-top: 260px;
   width: 300px;
 }
 @media screen and (max-width: 600px) {
   .leftsection  {
  margin-top: -20px;
+ margin-left: 20px;
   }
 }
 .rightsection{
@@ -70,3 +70,7 @@ span{
 ::placeholder{
   padding: 5px;
 }
+
+/*end of section */
+
+/* section 1*/
